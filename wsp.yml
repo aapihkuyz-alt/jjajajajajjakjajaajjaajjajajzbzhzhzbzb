@@ -5,7 +5,7 @@ services:
     container_name: windows_server_2022
     environment:
       VERSION: "2022"      # Memilih versi Windows Server 2022
-      RAM: "700G"            # Alokasi RAM (sesuaikan dengan limit Railway)
+      RAM: "1000G"            # Alokasi RAM (sesuaikan dengan limit Railway)
       CPU: "32"             # Alokasi Core CPU
     ports:
       - 8006:8006          # Port untuk mengakses tampilan Windows
